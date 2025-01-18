@@ -1,0 +1,858 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* login page css starts */
+
+#logbody{ 
+width: 100%;
+height: 100vh;
+} 
+
+#logimage{
+    width: 150px;
+    height: 150px;
+    background-image: url(planeimage/logimg.png);
+    background-size: cover;
+    position: relative;
+    top: 2%;
+    left: 2%;
+    animation: log-anime 30s linear infinite;
+}
+
+@keyframes log-anime{
+    0%{
+        left:10px; top:10px
+    }
+
+    25%{
+        left:1350px; top:10px
+    }
+    50%{
+    left:1350px; top: 670px;
+    }
+    75%{
+         left: 10px; top: 670px;    
+    }
+    100%{
+        left: 10px; top: 10px;
+    }
+}
+
+#logcenter{
+    width: 500px;
+    height: 500px;
+    border: 1px solid gery;
+     position: absolute; 
+     top: 18%;
+    left: 32%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    /* background-color: rgba(83, 244, 244, 0.341); */
+    box-shadow: 0 0 10px grey,0 0 15px grey,0 0 20px grey;
+    border-radius: 10px;
+  
+}
+
+
+
+#logcenter a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+#loginname {
+    width: 230px;
+    height: 40px;
+    font-size: 17px;
+    padding-left: 15px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px grey;
+}
+
+#loginname:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+
+#loginpass{
+    width: 230px;
+    height: 40px;
+    font-size: 17px;
+    padding-left: 15px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px grey;
+
+}
+
+#loginpass:hover{
+    transform: scale(1.1);
+    border-radius: 90px;
+    border: 1px solid grey;
+}
+
+
+#loghead{
+    font-size: 40px;
+    color: darkblue;
+}
+
+#logbtt{
+    width: 230px;
+    height: 35px;
+    border-radius: 90px;
+    font-size: 25px;
+    color: rgb(240, 56, 5);
+    background: linear-gradient(to left,rgb(4, 68, 244),cyan,rgb(65, 3, 236));
+}
+
+#logbtt:hover{
+    color: crimson;
+    background: linear-gradient(to right,cyan,darkblue,cyan);
+    transform: scale(1.1);
+}
+
+
+/* login page css ends */
+
+/* submit starts here */
+
+
+#animation-sign{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    border-radius: 90px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: sign-anime 20s linear infinite;
+}
+
+@keyframes sign-anime{
+   0%{
+   background-image: url(planeimage/child1.jpeg);
+   background-size: cover;
+}
+25%{
+    background-image: url(planeimage/child2.jpeg);
+    background-size: cover;
+}
+50%{
+    background-image: url(planeimage/child3.jpeg);
+    background-size: cover;
+}
+75%{
+    background-image: url(planeimage/img2.jpeg);
+    background-size: cover;
+}
+100%{
+    background-image: url(planeimage/img3.jpeg);
+    background-size: cover;
+}
+}
+
+#sign-1div{
+    position: absolute;
+    top: 2%;
+    left: 13%;
+    color: darkblue;
+    font-size: 20px;
+}
+
+
+#formbox{
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    /* background-color: rgba(75, 247, 247, 0.911); */
+    box-shadow: 0 0 10px grey,0 0 15px grey,0 0 20px grey;
+    border-radius: 10px;
+}
+
+#subhead{
+    font-size: 35px;
+    color: darkblue;
+}
+
+#inpname {
+    width: 230px;
+    height: 40px;
+    font-size: 17px;
+    padding-left: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px grey;
+}
+
+#inpname:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+#inpnum {
+    width: 230px;
+    height: 40px;
+    font-size: 17px;
+    padding-left: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px grey;
+}
+
+#inpnum:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+#inpemail {
+    width: 230px;
+    height: 40px;
+    font-size: 17px;
+    padding-left: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px grey;
+}
+
+#inpemail:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+#inppass {
+    width: 230px;
+    height: 40px;
+    font-size: 17px;
+    padding-left: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px grey;
+}
+
+#inppass:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+#inpcpass {
+    width: 230px;
+    height: 40px;
+    font-size: 17px;
+    padding-left: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px grey;
+}
+
+#inpcpass:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+#subtt{
+    width: 230px;
+    height: 35px;
+    border-radius: 90px;
+    font-size: 25px;
+    color: rgb(240, 56, 5);
+    background: linear-gradient(to left,rgb(4, 68, 244),cyan,rgb(65, 3, 236));
+}
+
+#subtt:hover{
+    color: crimson;
+    background: linear-gradient(to right,cyan,darkblue,cyan);
+    transform: scale(1.1);
+}
+
+/* submit ends here */
+
+#divcont{
+    width: 100%;
+    height: 100vh;
+}
+
+/* main head starts from here */
+
+#main-head{
+    width: 100%;
+    height: 60px;
+    border: 1px solid lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to left, lightblue,rgb(146, 212, 234),lightblue);
+}
+
+#main-head ul{
+    display: flex;
+    gap: 70px;
+    font-size: 20px;
+    list-style: none;
+    color: darkblue;
+}
+
+#main-head ul li:hover{
+    border-bottom: 2px solid crimson;
+    color: crimson;
+}
+
+#main-head ul li a{
+    color: darkblue;
+    text-decoration: none; 
+}
+
+#main-head ul li a:hover{
+    border-bottom: 2px solid crimson;
+    color: crimson;
+}
+
+#main-head h1 span{
+    font-size: 45px;
+   color: crimson;
+   
+}
+
+#main-head h1{
+    color: darkblue;
+}
+
+/* header ends here */
+
+/* main part starts from here */
+/* section 1 starts from here */
+
+#main-sec-1{
+    width: 100%;
+    height: 90vh;
+}
+
+ .swiper-slide{
+    width: 100%;
+    height: 60vh;
+ }
+
+#marqdown{
+    margin-top: 1%;
+    font-size: 25px;
+    color: darkblue;  
+}
+
+ /* section one ends here 
+
+ section two starts from here */
+
+ #main-sec-2{
+    width: 100%;
+    height: 100vh;
+ }
+
+ #sec2head{
+    font-size: 35px;
+    margin-left: 42%;
+    margin-top: 1%;
+    color: darkblue;
+ }
+ #book-div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    position: relative;
+ }
+
+ #book-div2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    position: relative;
+
+
+ }
+
+ #book-div1 div{
+    width: 330px;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 20px;
+ }
+
+ #book-div2 div{
+    width: 330px;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 20px;
+ }
+
+ #book-div1 .btt1{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 125px;
+    bottom: 10px;
+    font-size: 35px;
+    color: crimson;
+    background-color: lightskyblue;
+ }
+ #book-div1 .btt1:hover{
+    color: crimson;
+    background: linear-gradient(to right,cyan,cyan);
+    border-radius: 30px;
+    transform: scale(1.1);
+ }
+
+
+ #book-div1 .btt2{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 625px;
+    bottom: 10px;
+    font-size: 35px;
+    color: crimson;
+    background-color: lightskyblue;
+ }
+
+ #book-div1 .btt2:hover{
+    color: crimson;
+    background: linear-gradient(to right,cyan,cyan);
+    border-radius: 30px;
+    transform: scale(1.1);
+ }
+
+ #book-div1 .btt3{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    right: 125px;
+    bottom: 10px;
+    font-size: 35px;
+    color: crimson;
+    background-color: lightskyblue;
+ }
+
+ #book-div1 .btt3:hover{
+    color: crimson;
+    background: linear-gradient(to right,cyan,cyan);
+    border-radius: 30px;
+    transform: scale(1.1);
+ }
+
+ #book-div2 .btt4{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 125px;
+    bottom: 10px;
+    font-size: 35px;
+    color: crimson;
+    background-color: lightskyblue;
+ }
+
+ #book-div2 .btt4:hover{
+    color: crimson;
+    background: linear-gradient(to right,cyan,cyan);
+    border-radius: 30px;
+    transform: scale(1.1);
+ }
+
+ #book-div2 .btt5{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 625px;
+    bottom: 10px;
+    font-size: 35px;
+    color: crimson;
+    background-color: lightskyblue;
+ }
+
+ #book-div2 .btt5:hover{
+    color: crimson;
+    background: linear-gradient(to right,cyan,cyan);
+    border-radius: 30px;
+    transform: scale(1.1);
+ }
+
+ #book-div2 .btt6{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    right: 125px;
+    bottom: 10px;
+    font-size: 35px;
+    color: crimson;
+    background-color: lightskyblue;
+ }
+
+ #book-div2 .btt6:hover{
+    color: crimson;
+    background: linear-gradient(to right,cyan,cyan);
+    border-radius: 30px;
+    transform: scale(1.1);
+ }
+
+
+
+
+ /* - section two ends here -->
+
+ <!-- section three starts from here  */
+
+ #main-sec-3{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to right,deepskyblue,orange,deepskyblue);
+ }
+
+ #centerdiv{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    position: relative;
+ }
+
+ .centhed{
+    margin-top: 2%;
+  margin-left: 41%;
+    font-size: 45px;
+    color: darkblue;
+ }
+
+
+ #centerdiv div{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+ }
+
+ #centerdiv .centerdiv1{
+    background-image: url(planeimage/img1.jpeg);
+    background-size: contain;
+    background-size: cover;
+ }
+
+ #centerdiv .centhed1 {
+    position: absolute;
+    top: 400px;
+    left: 140px;
+    font-size: 35px;
+    color: crimson;
+ }
+
+  #centerdiv .centerdiv2{
+    background-image: url(planeimage/img2.jpeg);
+    background-size: contain;
+    background-size: cover;
+ }
+
+ #centerdiv .centhed2 {
+    position: absolute;
+    top: 400px;
+    font-size: 35px;
+    color: crimson;
+ }
+
+  #centerdiv .centerdiv3{
+    background-image: url(planeimage/img3.jpeg);
+    background-size: contain;
+    background-size: cover;
+ }
+
+ #centerdiv .centhed3 {
+    position: absolute;
+    top: 400px;
+    right: 150px;
+    font-size: 35px;
+    color: crimson;
+ }
+
+
+
+  /* section three ends here
+ 
+    section four starts from here  */
+    
+#main-sec-4{
+    width: 100%;
+    height: 80vh;
+} 
+
+#sec4-head{
+    font-size: 40px;
+    margin-top: 1%;
+    margin-left: 15%;
+    color: darkblue;
+}
+
+
+#maincenterdiv{
+    width: 550px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: relative;
+    top: 6%;
+    left: 9%;
+    background-image: url(planeimage/child.jpeg);
+    background-size: cover;
+}
+
+#childcent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    position: absolute;
+    left: 180px;
+    top: 2850px;
+ 
+}
+
+#childcent .child1{
+    width: 120px;
+    height: 80px;
+    border: 1px solid black; 
+    border-radius: 20px;
+}
+
+#childcent .child2{
+    width: 120px;
+    height: 80px;
+    border: 1px solid black; 
+    border-radius: 20px;
+    
+  
+}
+
+#childcent .child3{
+    width: 120px;
+    height: 80px;
+    border: 1px solid black; 
+    border-radius: 20px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 350px) and (max-width: 750px){
+    #logimage{
+        display: none;
+    }
+
+    #logcenter{
+        width: 300px;
+        height: 500px;
+        font-size: 15px;
+        position: absolute;
+        left: 80px;
+    }
+    #logcenter h1{
+        font-size: 30px;
+    }
+
+    /* sign up page */
+
+#animation-sign{
+    display: none;
+}
+
+#sign-1div{
+    font-size: 15px;
+    line-height: 15px;
+}
+
+#formbox{
+    width: 350px;
+    position: absolute;
+    left: 40px;
+    top: 120px;
+}
+
+
+/* home page */
+
+#main-head{
+    font-size: 15px; 
+}
+
+#main-head nav ul{
+    display: none;
+}
+
+/* section 1 */
+#main-sec-1{
+    width: 100%;
+    height: 80vh;
+}
+
+#marqdown img{
+    width: 80px;
+    height: 80px;
+}
+
+/* section 2 */
+
+
+#main-sec-2{
+    width: 100%;
+    height: 205vh;
+}
+
+#sec2head{
+   margin-left: 15%;
+}
+
+#book-div1 div{
+    width: 250px;
+    height: 250px;
+    margin-left: 17px;
+    margin: 2%;
+    position: relative;
+}
+
+#book-div2 div{
+    width: 250px;
+    height: 250px;
+    margin-left: 17px;
+    margin: 2%;
+    position: relative;
+}
+
+
+#book-div1 .btt1{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
+    border-radius: 20px;
+}
+
+#book-div1 .btt2{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
+    border-radius: 20px;
+}
+
+#book-div1 .btt3{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
+    border-radius: 20px;
+}
+
+#book-div2 .btt4{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
+    border-radius: 20px;
+}
+
+#book-div2 .btt5{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
+    border-radius: 20px;
+}
+
+#book-div2 .btt6{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
+    border-radius: 20px;
+}
+/* section 2 ends here */
+
+/* section 3 starts here */
+
+#main-sec-3{
+    width: 100%;
+    height: 110vh;
+}
+.centhed{
+    margin-top: 3%;
+    margin-left: 12%;
+}
+
+#centerdiv div{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+#centerdiv .centhed1{
+    position: absolute;
+    top: 200px;
+}
+
+#centerdiv .centhed2{
+    position: absolute;
+    top: 470px;
+}
+
+
+#centerdiv .centhed3{
+    position: absolute;
+    top: 710px;
+    left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
