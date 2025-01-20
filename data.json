@@ -1,0 +1,40 @@
+{
+  "flights": [
+    {
+      "name": "jatin",
+      "age": 23,
+      "number": 9874563214,
+      "place": "mumbai",
+      "people": 3,
+      "price": 1500,
+      "id": "e278"
+    },
+    {
+      "name": "sahil",
+      "age": 22,
+      "number": 9874555214,
+      "place": "kerela",
+      "people": 2,
+      "price": 2000,
+      "id": "6033"
+    },
+    {
+      "name": "abhi",
+      "age": 24,
+      "number": 9774563214,
+      "place": "himachal",
+      "people": 5,
+      "price": 2500,
+      "id": "264d"
+    },
+    {
+      "id": "c3fd",
+      "name": "raj",
+      "age": "77",
+      "number": "1254789655",
+      "place": "West Bengal",
+      "people": "10",
+      "price": 2000
+    }
+  ]
+}
