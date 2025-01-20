@@ -1,0 +1,43 @@
+
+{
+    "flight": [
+      {
+        "name": "raj",
+        "age": 25,
+        "number": 1236598741,
+        "place": "bhopal",
+        "visit": "delhi",
+        "price": 1500,
+        "people": 3,
+        "id": "7217"
+      },
+      {
+        "name": "abhi",
+        "age": 30,
+        "number": 363685741,
+        "place": "satna",
+        "visit": "kashmir",
+        "price": 4500,
+        "people": 5,
+        "id": "d66f"
+      },
+      {
+        "id": "eab7",
+        "name": "jatin",
+        "age": "40",
+        "number": "1111111111",
+        "place": "Mumbai",
+        "people": "5",
+        "price": 1000
+      },
+      {
+        "id": "0835",
+        "name": "sahil",
+        "age": "25",
+        "number": "3265987452",
+        "place": "Kashmir",
+        "people": "6",
+        "price": 2000
+      }
+    ]
+  }
