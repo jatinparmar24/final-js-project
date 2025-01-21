@@ -8,6 +8,15 @@
 //    dalay:2,
 // })
 
+let menutoggle=document.querySelector("#menu")
+let navlinks=document.querySelector("ul")
+
+menutoggle.addEventListener('click',()=>{
+   menutoggle.classList.toggle('active');
+   navlinks.classList.toggle('active');
+})
+
+
  let login=()=>{
 
    let loginname=document.querySelector("#loginname").value

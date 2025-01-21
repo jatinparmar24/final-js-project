@@ -331,6 +331,49 @@ height: 100vh;
     color: darkblue;
 }
 
+#menu{
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 25px;
+}
+
+#menu span{
+    background-color: white;
+    height: 3px;
+    width: 30px;
+    margin: 4px 0;
+    transition: all 0.5 ease-in-out;
+    position: absolute;
+    left: 0;
+}
+
+.bar1{
+top: 0;
+}
+
+.bar2{
+    top: 10px;
+ }
+
+.bar1{
+ top: 20px;
+ }
+
+ #menu.active .bar1{
+    transform: rotate(45deg);
+    top: 10px;
+ }
+
+ #menu.active .bar2{
+   opacity: 0;
+ }
+
+ #menu.active .bar3{
+    transform: rotate(-45deg);
+    top: 10px;
+ }
+
 /* header ends here */
 
 /* main part starts from here */
@@ -513,7 +556,14 @@ height: 100vh;
     transform: scale(1.1);
  }
 
-
+ 
+.book1{
+    background-image: url(planeimage/indigo.avif);
+    background-size: contain;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
  /* - section two ends here -->
@@ -729,6 +779,21 @@ height: 100vh;
     display: none;
 }
 
+ul{
+    display: none;
+    flex-direction: column;
+    background-color: aquamarine;
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ul.active{
+    display: flex;
+}
 /* section 1 */
 #main-sec-1{
     width: 100%;
