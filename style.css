@@ -354,6 +354,8 @@ height: 100vh;
     border-radius: 20px;
 }
 
+
+
  /* section one ends here 
 
  section two starts from here */
@@ -652,6 +654,23 @@ height: 100vh;
     border-radius: 20px;
   
 }
+
+#maincenterdiv2{
+    width: 550px;
+    height: 450px;
+    border-radius: 30px;
+    position: absolute;
+    top: 90px;
+    right: 100px;
+
+}
+
+.swiper2{
+    width: 550px;
+    height: 450px;
+}
+
+
 
 
 

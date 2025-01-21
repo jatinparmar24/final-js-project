@@ -24,8 +24,9 @@ let fetchData=async()=>{
             <td>${e.place}</td>
               <td>${e.price}</td>
               <td>${e.people}</td>
+              <td>${e.date}</td>
               <td>${e.price*e.people}</td>
-              <td onclick="del('${e.id}')">Cancel</td>
+              <td onclick="condel('${e.id}')">Cancel</td>
                <td onclick="formfill('${e.id}')">Edit</td>
               
        
@@ -39,17 +40,39 @@ let fetchData=async()=>{
  
  
  let del=(id)=>{
+
  
     let urls=`http://localhost:3000/flights/${id}`
  
     fetch(urls,{method:"DELETE"})
+ }
+
+ let condel=(id)=>{
+    Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+            del(id)
+          Swal.fire({
+            title: "Deleted!",
+            text: "Your file has been deleted.",
+            icon: "success"
+          });
+        }
+      });
  }
  
  
  
  // bookingform
  
- let formsubmit=()=>{
+ let formsubmitt=()=>{
  
     let inpname=document.querySelector("#formname").value;
     let inpage=document.querySelector("#formage").value;
@@ -74,6 +97,7 @@ let fetchData=async()=>{
                     number:inpnum,
                     place:inpplace,
                     people:inppeople,
+                    date:inpdate,
                     price:2000
                  }
  
@@ -119,7 +143,7 @@ let formfill = async(id)=>{
     </select> <br>
 
     <h2>Enter Number of People</h2>
-    <input type="number" id="formpeopl" value="${data.place}"> <br>
+    <input type="number" id="formpeopl" value="${data.people}"> <br>
 
     <h2>Date</h2>
     <input type="date" id="formdat" value="${data.date}"> <br> <br>
@@ -128,7 +152,8 @@ let formfill = async(id)=>{
     
     `
 
-    document.querySelector("#formdisplay").innerHTML=formdata
+  let show=  document.querySelector("#formdisplay")
+  show.innerHTML=formdata
 }
  
 
@@ -137,7 +162,8 @@ let finalupdate=(id)=>{
     let Name=document.querySelector("#formnam").value
     let Age=document.querySelector("#formag").value
     let Number=document.querySelector("#formnom").value
-    let People=document.querySelector("#forpeopl").value
+    let Place=document.querySelector("#formplac").value
+    let People=document.querySelector("#formpeopl").value
     let Date=document.querySelector("#formdat").value
 
     
@@ -153,6 +179,7 @@ let finalupdate=(id)=>{
                 name:Name,
                  age:Age,
                  number:Number,
+                 place:Place,
                  people:People,
                  date:Date,
                  price:1500,

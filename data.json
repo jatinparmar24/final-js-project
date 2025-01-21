@@ -1,31 +1,32 @@
 {
   "flights": [
     {
-      "name": "sahil",
-      "age": 22,
-      "number": 9874555214,
-      "place": "kerela",
-      "people": 2,
-      "price": 2000,
-      "id": "6033"
-    },
-    {
-      "name": "abhi",
-      "age": 24,
-      "number": 9774563214,
-      "place": "himachal",
-      "people": 5,
-      "price": 2500,
-      "id": "264d"
-    },
-    {
-      "id": "119b",
-      "name": "raj",
-      "age": "70",
-      "number": "1254789655",
-      "place": "Mumbai",
-      "people": "10",
+      "id": "fa03",
+      "name": "himans",
+      "age": "33",
+      "number": "5566232365",
+      "place": "Delhi",
+      "people": "6",
       "price": 2000
+    },
+    {
+      "id": "6550",
+      "name": "himan",
+      "age": "33",
+      "number": "5566232365",
+      "place": "Delhi",
+      "people": "6",
+      "price": 2000
+    },
+    {
+      "name": "himanshuu",
+      "age": "32",
+      "number": "5566232365",
+      "place": "Tamil Nadu",
+      "people": "2",
+      "date": "2025-01-24",
+      "price": 1500,
+      "id": "906f"
     }
   ]
 }
