@@ -1,15 +1,6 @@
 {
   "flights": [
     {
-      "name": "jatin",
-      "age": 23,
-      "number": 9874563214,
-      "place": "mumbai",
-      "people": 3,
-      "price": 1500,
-      "id": "e278"
-    },
-    {
       "name": "sahil",
       "age": 22,
       "number": 9874555214,
@@ -28,11 +19,11 @@
       "id": "264d"
     },
     {
-      "id": "c3fd",
+      "id": "119b",
       "name": "raj",
-      "age": "77",
+      "age": "70",
       "number": "1254789655",
-      "place": "West Bengal",
+      "place": "Mumbai",
       "people": "10",
       "price": 2000
     }
