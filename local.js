@@ -1,4 +1,22 @@
 
+let checklogin=()=>{
+
+   let loginbtn=document.querySelector("#loginbt")
+   let logoutbt=document.querySelector("#logoutbt")
+
+   if(localStorage.getItem("islogin")==="true"){
+      loginbtn.style.display="none"
+     logoutbt.style.display="block"
+   }
+   else{
+       loginbtn.style.display="block"
+     logoutbt.style.display="none"
+   }
+}
+
+let logoutbbt=()=>{
+   localStorage.removeItem("islogin")
+}
 
 // gsap
 
@@ -52,6 +70,7 @@ let submits=()=>{
   localStorage.setItem("Email",email)
   localStorage.setItem("Password",pass)
   localStorage.setItem("C-Passwpord",cpass)
+  localStorage.setItem("islogin","true")
 
   let errname=document.querySelector("#errorname");
   let errnum=document.querySelector("#errornum");

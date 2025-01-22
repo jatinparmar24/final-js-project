@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: serif, sans-serif;
+    font-family: 'Gilroy';
 }
 
 /* login page css starts */
@@ -340,13 +340,14 @@ height: 100vh;
 }
 
 #menu span{
-    background-color: white;
+    background-color: black;
     height: 3px;
     width: 30px;
     margin: 4px 0;
     transition: all 0.5 ease-in-out;
     position: absolute;
     left: 0;
+    z-index: 5;
 }
 
 .bar1{
@@ -566,6 +567,42 @@ top: 0;
     background-repeat: no-repeat;
 }
 
+.book2{
+    background-image: url(planeimage/Vistara.jpg);
+    background-size: contain;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: beige;
+}
+.book3{
+    background-image: url(planeimage/spicejet.jpg);
+    background-size: contain;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.book4{
+    background-image: url(planeimage/oneworld.jpg);
+    background-size: contain;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.book5{
+    background-image: url(planeimage/express.jpg);
+    background-size: contain;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.book6{
+    background-image: url(planeimage/xti.jpg);
+    background-size: contain;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
  /* - section two ends here -->
 
@@ -713,6 +750,7 @@ top: 0;
     position: absolute;
     top: 90px;
     right: 100px;
+    overflow: hidden;
 
 }
 
@@ -730,13 +768,22 @@ top: 0;
 
 #bookform{
   width: 600px;
-  height: 800px;  
-  border: 1px solid black;
+  height: 750px;  
+  /* border: 1px solid black; */
+  background-color: rgba(170, 216, 247, 0.37);
   position: relative;
-  top: 25px;
+  top: 65px;
   left: 33%;
   line-height: 30px;
-  padding-top: 60px;
+  padding-top: 40px;
+}
+
+#formbookhead{
+    font-size: 50px;
+    position: absolute;
+    color: crimson;
+    left: 600px;
+    top: 8px;
 }
 
 #bookform input{
@@ -757,8 +804,31 @@ top: 0;
     color: darkblue;
     margin-bottom: 10px;
 }
+/* 
+#bookformsub{
+    
+    color: crimson;
+    background-color: rgba(170, 216, 247, 0.37);
+ } */
+ #bookformsub{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    border: 1px solid black;
+    left: 220px;
+    bottom: 50px;
+    font-size: 45px;
+    color: crimson;
+    background: linear-gradient(to right,cyan,cyan);
+    border-radius: 30px;
+ }
 
+ #bookformsub:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    border: 1px solid black;
 
+ }
 
 
 
@@ -827,11 +897,14 @@ top: 0;
     display: none;
 }
 
+#menu{
+    display: block;
+}
 ul{
     display: none;
     flex-direction: column;
     background-color: aquamarine;
-    position: fixed;
+    /* position: fixed; */
     top: 90px;
     right: 20px;
     width: 90%;
@@ -841,6 +914,7 @@ ul{
 
 ul.active{
     display: flex;
+    background-color: black;
 }
 /* section 1 */
 #main-sec-1{

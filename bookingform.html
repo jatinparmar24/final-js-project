@@ -5,26 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 
 
     <div id="formbookbody">
+
+      <h2 id="formbookhead"><i><b>Book Your Flight</b></i></h2>
   <div id="bookform">
 
     <form align="center" >
 
     
-        <h2 id="bookhead">Enter Name</h2>
+        <h2 id="bookhead"  data-aos="flip-left"   
+                           data-aos-easing="ease-out-cubic"
+                           data-aos-delay="200"
+                           data-aos-offset="300"
+                           data-aos-duration="2200">Enter Name</h2>
         <input type="text" id="formname"> <br> <br>
     
-        <h2 id="bookhead">Enter Your Age</h2>
+        <h2 id="bookhead"
+                          data-aos="flip-left"   
+                          data-aos-easing="ease-out-cubic"
+                          data-aos-delay="300"
+                          data-aos-offset="300"
+                          data-aos-duration="2300">Enter Your Age</h2>
         <input type="number" id="formage"> <br> <br>
     
-        <h2 id="bookhead">Enter Number</h2> 
+        <h2 id="bookhead"  data-aos="flip-left"   
+                           data-aos-easing="ease-out-cubic"
+                           data-aos-delay="400"
+                           data-aos-offset="300"
+                           data-aos-duration="2400">Enter Number</h2> 
         <input type="number" id="formnum"> <br> <br>
     
-        <h2 id="bookhead">Enter Place</h2> 
+        <h2 id="bookhead"  data-aos="flip-left"   
+                           data-aos-easing="ease-out-cubic"
+                           data-aos-delay="500"
+                           data-aos-offset="300"
+                           data-aos-duration="2500">Enter Place</h2> 
         <select id="formplace">
                  <option value="Mumbai">Mumbai</option>
                  <option value="Delhi">Delhi</option>
@@ -35,13 +56,20 @@
     
         </select> <br> <br>
     
-        <h2 id="bookhead">Enter Number of People</h2> 
+        <h2 id="bookhead"  data-aos="flip-left"   
+                           data-aos-easing="ease-out-cubic"
+                           data-aos-delay="600"
+                           data-aos-offset="300"
+                           data-aos-duration="2600">Enter Number of People</h2> 
         <input type="number" id="formpeople"> <br> <br>
     
-        <h2 id="bookhead">Date</h2> 
-        <input type="date" id="formdate"> <br> <br> <br>
+        <h2 id="bookhead"  data-aos="flip-left"
+                           data-aos-easing="ease-out-cubic" 
+                           data-aos-delay="700" 
+                           data-aos-duration="2700">Date</h2> 
+        <input type="date" id="formdate">
     
-        <input type="submit" onclick="return formsubmitt()">
+        <input type="submit" onclick="return formsubmitt()" id="bookformsub">
        
     
         </form>
@@ -53,10 +81,25 @@
 
 
 
-    
+
+
+
+
+
+  <!-- data aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+  <script>
+    AOS.init();
+  </script> 
+
+
+    <!-- vanta clouds -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
     <script src="bookform.js"></script>
+
+  
+
 
     <script src="book.js"></script>
 </body>

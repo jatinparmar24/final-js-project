@@ -13,7 +13,7 @@
 />
 
 </head>
-<body>
+<body onload="checklogin()">
 
   <!-- Header starts from here -->
     <header id="main-head">
@@ -47,20 +47,20 @@
 
           <li data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="1200"><a href="localLogin.html">Login</a></li>
+          data-aos-duration="1200"><a href="localLogin.html" id="loginbt">Login</a></li>
 
           <li data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="1200"><a href="localSignup.html">Log Out</a></li>
+          data-aos-duration="1200"><a href="localSignup.html" id="logoutbt" onclick="logoutbbt()">Log Out</a></li>
         </ul>
 
-        <div id="menu">
-          <span class="bar1"></span>
-          <span class="bar2"></span>
-          <span class="bar3"></span>
-        </div>
+       
       </nav>
-
+      <div id="menu">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </div>
 
 
     </header>
