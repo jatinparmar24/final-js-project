@@ -8,41 +8,55 @@
 </head>
 <body>
 
-    <form align="center">
+
+    <div id="formbookbody">
+  <div id="bookform">
+
+    <form align="center" >
 
     
-    <h2>Enter Name</h2>
-    <input type="text" id="formname"> <br>
-
-    <h2>Enter Your Age</h2>
-    <input type="number" id="formage"> <br>
-
-    <h2>Enter Number</h2>
-    <input type="number" id="formnum"> <br>
-
-    <h2>Enter Place</h2>
-    <select id="formplace">
-             <option value="Mumbai">Mumbai</option>
-             <option value="Delhi">Delhi</option>
-             <option value="Kashmir">Kashmir</option>
-             <option value="Tamil Nadu">Tamil Nadu</option>
-             <option value="West Bengal">West Bengal </option>
-             <option value="Gujurat">Gujurat</option>
-
-    </select> <br>
-
-    <h2>Enter Number of People</h2>
-    <input type="number" id="formpeople"> <br>
-
-    <h2>Date</h2>
-    <input type="date" id="formdate"> <br> <br>
-
-    <input type="submit" onclick="return formsubmitt()">
-   
-
-    </form>
-   
+        <h2 id="bookhead">Enter Name</h2>
+        <input type="text" id="formname"> <br> <br>
     
+        <h2 id="bookhead">Enter Your Age</h2>
+        <input type="number" id="formage"> <br> <br>
+    
+        <h2 id="bookhead">Enter Number</h2> 
+        <input type="number" id="formnum"> <br> <br>
+    
+        <h2 id="bookhead">Enter Place</h2> 
+        <select id="formplace">
+                 <option value="Mumbai">Mumbai</option>
+                 <option value="Delhi">Delhi</option>
+                 <option value="Kashmir">Kashmir</option>
+                 <option value="Tamil Nadu">Tamil Nadu</option>
+                 <option value="West Bengal">West Bengal </option>
+                 <option value="Gujurat">Gujurat</option>
+    
+        </select> <br> <br>
+    
+        <h2 id="bookhead">Enter Number of People</h2> 
+        <input type="number" id="formpeople"> <br> <br>
+    
+        <h2 id="bookhead">Date</h2> 
+        <input type="date" id="formdate"> <br> <br> <br>
+    
+        <input type="submit" onclick="return formsubmitt()">
+       
+    
+        </form>
+
+
+  </div>
+   
+</div>
+
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+    <script src="bookform.js"></script>
 
     <script src="book.js"></script>
 </body>

@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: serif, sans-serif;
 }
 
 /* login page css starts */
@@ -719,6 +720,53 @@ top: 0;
     width: 550px;
     height: 450px;
 }
+
+/* bookingform */
+
+#formbookbody{
+    width: 100%;
+    height: 100vh;
+}
+
+#bookform{
+  width: 600px;
+  height: 800px;  
+  border: 1px solid black;
+  position: relative;
+  top: 25px;
+  left: 33%;
+  line-height: 30px;
+  padding-top: 60px;
+}
+
+#bookform input{
+    width: 160px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#formplace{
+    width: 160px;
+    height: 35px; 
+    font-size: 20px;
+ 
+}
+
+#bookhead{
+    font-size: 30px;
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
