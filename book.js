@@ -10,8 +10,28 @@ let fetchData=async()=>{
  
     let data=await res.json()
     console.log(data);
-    
+    datashow(data)
+}
+
+ let searchh=async()=>{
+  let searchinp=document.querySelector("#searchinp").value.toLowerCase();
+
+  let url='http://localhost:3000/flights'
+  let res=await fetch(url,{method:"GET"})
+
+  let data=await res.json()
+
+  let filterData=data.filter((e)=>{
+    return e.name.toLowerCase().includes(searchinp) || e.age.toString().includes(searchinp)
+  })
+  datashow(filterData)
+ }
+
+
+
+  let datashow=(data)=>{
     let show=document.querySelector("#display")
+    show.innerHTML=""
     data.map((e)=>{
  
         show.innerHTML+=`

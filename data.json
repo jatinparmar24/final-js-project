@@ -21,14 +21,14 @@
       "price": 2000
     },
     {
-      "id": "02e4",
-      "name": "abhi",
-      "age": "10",
+      "name": "jatin",
+      "age": "24",
       "number": "6547896547",
-      "place": "West Bengal",
-      "people": "12",
-      "date": "2025-01-25",
-      "price": 2000
+      "place": "Mumbai",
+      "people": "6",
+      "date": "2025-01-24",
+      "price": 1500,
+      "id": "ab27"
     }
   ]
 }
