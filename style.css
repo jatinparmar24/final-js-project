@@ -408,6 +408,7 @@ top: 0;
  #main-sec-2{
     width: 100%;
     height: 100vh;
+    position: relative;
  }
 
  #sec2head{
@@ -422,7 +423,6 @@ top: 0;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 3%;
-    position: relative;
  }
 
  #book-div2{
@@ -431,34 +431,29 @@ top: 0;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 3%;
-    position: relative;
 
 
  }
 
  #book-div1 div{
-    width: 330px;
-    height: 330px;
-    border: 1px solid black;
-    border-radius: 20px;
+    width: 300px;
+    height: 182px;
+ 
  }
 
  #book-div2 div{
-    width: 330px;
-    height: 330px;
-    border: 1px solid black;
-    border-radius: 20px;
+    width: 300px;
+    height: 182px;
  }
 
  #book-div1 .btt1{
-    width: 250px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     position: absolute;
-    left: 125px;
-    bottom: 10px;
-    font-size: 35px;
+    top: 300px;
+    font-size: 25px;
     color: crimson;
-    background-color: lightskyblue;
+    background-color: lightcyan;
  }
  #book-div1 .btt1:hover{
     color: crimson;
@@ -469,14 +464,13 @@ top: 0;
 
 
  #book-div1 .btt2{
-    width: 250px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     position: absolute;
-    left: 625px;
-    bottom: 10px;
-    font-size: 35px;
+    top: 300px;
+    font-size: 25px;
     color: crimson;
-    background-color: lightskyblue;
+    background-color: lightcyan;
  }
 
  #book-div1 .btt2:hover{
@@ -487,14 +481,13 @@ top: 0;
  }
 
  #book-div1 .btt3{
-    width: 250px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     position: absolute;
-    right: 125px;
-    bottom: 10px;
-    font-size: 35px;
+    top: 300px;
+    font-size: 25px;
     color: crimson;
-    background-color: lightskyblue;
+    background-color: lightcyan;
  }
 
  #book-div1 .btt3:hover{
@@ -505,14 +498,13 @@ top: 0;
  }
 
  #book-div2 .btt4{
-    width: 250px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     position: absolute;
-    left: 125px;
-    bottom: 10px;
-    font-size: 35px;
+    top: 300px;
+    font-size: 25px;
     color: crimson;
-    background-color: lightskyblue;
+    background-color: lightcyan;
  }
 
  #book-div2 .btt4:hover{
@@ -523,14 +515,13 @@ top: 0;
  }
 
  #book-div2 .btt5{
-    width: 250px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     position: absolute;
-    left: 625px;
-    bottom: 10px;
-    font-size: 35px;
+    top: 300px;
+    font-size: 25px;
     color: crimson;
-    background-color: lightskyblue;
+    background-color: lightcyan;
  }
 
  #book-div2 .btt5:hover{
@@ -541,14 +532,13 @@ top: 0;
  }
 
  #book-div2 .btt6{
-    width: 250px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     position: absolute;
-    right: 125px;
-    bottom: 10px;
-    font-size: 35px;
+    top: 300px;
+    font-size: 25px;
     color: crimson;
-    background-color: lightskyblue;
+    background-color: lightcyan;
  }
 
  #book-div2 .btt6:hover{
@@ -561,47 +551,122 @@ top: 0;
  
 .book1{
     background-image: url(planeimage/indigo.avif);
-    background-size: contain;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    box-shadow: 10px 10px 20px grey;
+}
+
+.book1-topic1{
+    position: absolute;
+    top: 200px;
+}
+
+.book1-topic1 span{
+    color: crimson;
+    font-size: 30px;
 }
 
 .book2{
     background-image: url(planeimage/Vistara.jpg);
-    background-size: contain;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    background-color: beige;
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    box-shadow: 10px 10px 20px grey;
+}
+
+.book1-topic2{
+    position: absolute;
+    top: 200px;
+}
+
+.book1-topic2 span{
+    color: crimson;
+    font-size: 30px;
 }
 .book3{
     background-image: url(planeimage/spicejet.jpg);
-    background-size: contain;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    position: absolute;
+    top: 60px;
+    right: 150px;
+    box-shadow: 10px 10px 20px grey;
 }
-.book4{
+
+.book1-topic3{
+    position: absolute;
+    top: 200px;
+}
+
+.book1-topic3 span{
+    color: crimson;
+    font-size: 30px;
+}
+ .book4{
     background-image: url(planeimage/oneworld.jpg);
-    background-size: contain;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    position: absolute;
+    top: 460px;
+    left: 100px;
+    box-shadow: 10px 10px 20px grey;
 }
+
+.book1-topic4{
+    position: absolute;
+    top: 200px;
+}
+
+.book1-topic4 span{
+    color: crimson;
+    font-size: 30px;
+}
+
+
 .book5{
     background-image: url(planeimage/express.jpg);
-    background-size: contain;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    position: absolute;
+    top: 460px;
+    left: 600px;
+    box-shadow: 10px 10px 20px grey;
 }
+
+.book1-topic5{
+    position: absolute;
+    top: 200px;
+}
+
+.book1-topic5 span{
+    color: crimson;
+    font-size: 30px;
+}
+
+
 .book6{
-    background-image: url(planeimage/xti.jpg);
-    background-size: contain;
-    /* background-size: cover; */
+    background-image: url(planeimage/airindia.jpg);
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    position: absolute;
+    top: 460px;
+    right: 150px;
+    box-shadow: 10px 10px 20px grey;
+} 
+
+.book1-topic6{
+    position: absolute;
+    top: 200px;
+}
+
+.book1-topic6 span{
+    color: crimson;
+    font-size: 30px;
 }
 
  /* - section two ends here -->
@@ -610,13 +675,11 @@ top: 0;
 
  #main-sec-3{
     width: 100%;
-    height: 80vh;
-    background-image: linear-gradient(to right,deepskyblue,orange,deepskyblue);
+    height: 150vh;
+    position: relative;
  }
 
  #centerdiv{
-    display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 5%;
     position: relative;
@@ -631,30 +694,50 @@ top: 0;
 
 
  #centerdiv div{
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     border: 1px solid black;
+    border-radius: 100%;
  }
 
  #centerdiv .centerdiv1{
     background-image: url(planeimage/img1.jpeg);
     background-size: contain;
     background-size: cover;
+    position: absolute;
+    left: 180px;
  }
 
  #centerdiv .centhed1 {
     position: absolute;
-    top: 400px;
-    left: 140px;
+    top: 15px;
+    left: 650px;
     font-size: 35px;
     color: crimson;
+    border-bottom: 2px solid crimson;
  }
 
+.div1-part{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid black;
+    position: absolute;
+    top: 127px;
+    left: 280px;
+    line-height: 30px;
+}
+
+.div1-part div{
+    margin-top: 60px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+/* 
   #centerdiv .centerdiv2{
     background-image: url(planeimage/img2.jpeg);
     background-size: contain;
     background-size: cover;
- }
+ } */
 
  #centerdiv .centhed2 {
     position: absolute;
@@ -663,11 +746,11 @@ top: 0;
     color: crimson;
  }
 
-  #centerdiv .centerdiv3{
+  /* #centerdiv .centerdiv3{
     background-image: url(planeimage/img3.jpeg);
     background-size: contain;
     background-size: cover;
- }
+ } */
 
  #centerdiv .centhed3 {
     position: absolute;
@@ -871,6 +954,7 @@ top: 0;
     position: absolute;
     top: 350px;
     left: 10%;
+    box-shadow: -10px 10px 20px grey;
   }
 
   #booktablehead{
@@ -911,6 +995,11 @@ top: 0;
     right: 10px;
   }
 
+  #pagin{
+    position: absolute;
+    bottom: 90px;
+    left: 40%;
+  }
 
 
 
