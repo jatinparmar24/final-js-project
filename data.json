@@ -11,16 +11,6 @@
       "id": "906f"
     },
     {
-      "id": "72e8",
-      "name": "jatin",
-      "age": "23",
-      "number": "365478987",
-      "place": "Gujurat",
-      "people": "5",
-      "date": "2025-01-24",
-      "price": 2000
-    },
-    {
       "name": "jatin",
       "age": "24",
       "number": "6547896547",
@@ -29,6 +19,16 @@
       "date": "2025-01-24",
       "price": 1500,
       "id": "ab27"
+    },
+    {
+      "id": "d395",
+      "name": "raj",
+      "age": "34",
+      "number": "55555555555",
+      "place": "Delhi",
+      "people": "4",
+      "date": "2025-01-31",
+      "price": 2000
     }
   ]
 }

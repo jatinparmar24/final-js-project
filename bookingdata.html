@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body onload="fetchData()">
+<body onload="fetchData()" id="bookdatabody">
 
+    <h2 id="editform"><i>Edit Details</i></h2>
     <div id="formdisplay"></div>
 
-    Search <input type="text" id="searchinp" oninput="searchh()">
+ <div id="searchbox">  <h2><i> Search Your Details</i></h2> <input type="text" id="searchinp" oninput="searchh()"></div>
 
-    <table border="1" align="center" cellspacing="20px" cellpadding="10px">
-       <thead>
+ <h2 id="bookfromheads"><i>Booking Lists</i></h2>
+    <table border="1" id="booktable">
+       <thead id="booktablehead">
         <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Number</th>
-            <th>Place</th>
-            <th>Price</th>
-            <th>People</th>
-            <th>Date</th>
-            <th>Total</th>
-            <th>Delete</th>
-            <th>Edit</th>
+            <th class="tbhead">Name</th>
+            <th class="tbhead">Age</th>
+            <th class="tbhead">Number</th>
+            <th class="tbhead">Place</th>
+            <th class="tbhead">Price</th>
+            <th class="tbhead">People</th>
+            <th class="tbhead">Date</th>
+            <th class="tbhead">Total</th>
+            <th class="tbhead">Delete</th>
+            <th class="tbhead">Edit</th>
         </tr>
        </thead>
 

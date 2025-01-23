@@ -38,16 +38,16 @@ let fetchData=async()=>{
         
         <tr>
         
-         <td>${e.name}</td>
-          <td>${e.age}</td>
-           <td>${e.number}</td>
-            <td>${e.place}</td>
-              <td>${e.price}</td>
-              <td>${e.people}</td>
-              <td>${e.date}</td>
-              <td>${e.price*e.people}</td>
-              <td onclick="condel('${e.id}')">Cancel</td>
-               <td onclick="formfill('${e.id}')">Edit</td>
+         <td class="tbhead">${e.name}</td>
+         <td class="tbhead">${e.age}</td>
+         <td class="tbhead">${e.number}</td>
+         <td class="tbhead">${e.place}</td>
+         <td class="tbhead">${e.price}</td>
+         <td class="tbhead">${e.people}</td>
+         <td class="tbhead">${e.date}</td>
+         <td class="tbhead">${e.price*e.people}</td>
+         <td onclick="condel('${e.id}')" class="tbheads">Cancel</td>
+         <td onclick="formfill('${e.id}')" class="tbheads">Edit</td>
               
        
         </tr>

@@ -193,8 +193,8 @@ let child3=()=>{
    imge3.style.backgroundImage="url('planeimage/child3.jpeg')"
    imge3.style.backgroundSize="contain"
    imge3.style.backgroundSize="cover"
-  imge3.style.backgroundRepeat="no-repeat"
-  imge3.style.backgroundPosition="center"
+   imge3.style.backgroundRepeat="no-repeat"
+   imge3.style.backgroundPosition="center"
 }
 
 //  section 4 main center div images ends //
