@@ -197,6 +197,51 @@ let child3=()=>{
    imge3.style.backgroundPosition="center"
 }
 
+let child4=()=>{
+   let imge4=document.querySelector("#maincenterdiv")
+   imge4.style.backgroundImage="url('planeimage/express.jpg')"
+   imge4.style.backgroundSize="contain"
+   imge4.style.backgroundSize="cover"
+   imge4.style.backgroundRepeat="no-repeat"
+   imge4.style.backgroundPosition="center"
+}
+
+let child5=()=>{
+   let imge5=document.querySelector("#maincenterdiv")
+   imge5.style.backgroundImage="url('planeimage/airindia.jpg')"
+   imge5.style.backgroundSize="contain"
+   imge5.style.backgroundSize="cover"
+   imge5.style.backgroundRepeat="no-repeat"
+   imge5.style.backgroundPosition="center"
+}
+
+let child6=()=>{
+   let imge6=document.querySelector("#maincenterdiv")
+   imge6.style.backgroundImage="url('planeimage/img3.jpeg')"
+   imge6.style.backgroundSize="contain"
+   imge6.style.backgroundSize="cover"
+   imge6.style.backgroundRepeat="no-repeat"
+   imge6.style.backgroundPosition="center"
+}
+
+let child7=()=>{
+   let imge7=document.querySelector("#maincenterdiv")
+   imge7.style.backgroundImage="url('planeimage/luxury.jpg')"
+   imge7.style.backgroundSize="contain"
+   imge7.style.backgroundSize="cover"
+   imge7.style.backgroundRepeat="no-repeat"
+   imge7.style.backgroundPosition="center"
+}
+
+let child8=()=>{
+   let imge8=document.querySelector("#maincenterdiv")
+   imge8.style.backgroundImage="url('planeimage/spicejet.jpg')"
+   imge8.style.backgroundSize="contain"
+   imge8.style.backgroundSize="cover"
+   imge8.style.backgroundRepeat="no-repeat"
+   imge8.style.backgroundPosition="center"
+}
+
 //  section 4 main center div images ends //
 
 
