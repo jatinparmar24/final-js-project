@@ -296,7 +296,7 @@ height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(to left, lightblue,rgb(146, 212, 234),lightblue);
+    background-color: #c5f8e5;
 }
 
 #main-head ul{
@@ -384,6 +384,7 @@ top: 0;
 #main-sec-1{
     width: 100%;
     height: 90vh;
+    background-color: #DFF2EB;
 }
 
  .swiper-slide{
@@ -410,6 +411,7 @@ top: 0;
     height: 100vh;
     position: relative;
     border: 1px solid black;
+    background-color: #B9E5E8;
  }
 
  #sec2head{
@@ -678,6 +680,7 @@ top: 0;
     height: 105vh;
     position: relative;
     border: 1px solid black;
+    background-color: #7AB2D3;
  }
 
  #centerdiv{
@@ -815,8 +818,10 @@ top: 0;
     
 #main-sec-4{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
+    margin: 0%;
     position: relative;
+    background-color: #4A628A;
 } 
 
 #sec4-head{
@@ -968,23 +973,26 @@ top: 0;
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: rgba(15, 242, 166, 0.464);
+    background-color: #B9E5E8;
   }
 
   #searchbox{
     position: absolute;
-    top: 10px;
-    left: 25%;
-    font-size: 35px;
+    display: flex;
+    top: 40px;
+    left: 10%;
+    font-size: 30px;
     color: crimson;
   }
 
   #searchbox input{
-    margin-left: 100px;
+    margin-left: 80px;
+    margin-top: 10px;
     width: 200px;
     height: 35px;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 10px;
+    box-shadow: inset -5px -5px 10px #B9E5E8;
   }
 
 
@@ -1033,7 +1041,7 @@ top: 0;
     position: absolute;
     color: crimson;
     top: 15px;
-    right: 100px;
+    right: 150px;
     font-size: 35px;
 
   }
