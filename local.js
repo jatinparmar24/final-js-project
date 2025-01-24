@@ -216,8 +216,8 @@ var swiper = new Swiper(".swiper", {
    },
  });
 
- const progressCircle = document.querySelector(".autoplay-progress svg");
- const progressContent = document.querySelector(".autoplay-progress span");
+ var progressCircle = document.querySelector(".autoplay-progress svg");
+ var progressContent = document.querySelector(".autoplay-progress span");
  var swiper = new Swiper(".swiper2", {
    spaceBetween: 30,
    centeredSlides: true,

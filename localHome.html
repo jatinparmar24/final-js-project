@@ -41,17 +41,23 @@
 
           <li data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="1200">Services</li>
+          data-aos-duration="1200"><i class="fa-solid fa-plane-up"></i> &nbsp;Book Flight</li>
+
+
 
           <li data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="1200">About</li>
+          data-aos-duration="1200">Services</li>
 
           <li data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="1200"><a href="localLogin.html" id="loginbt">Login</a></li>
+          data-aos-duration="1200">About</li>
 
           <li data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1200"><a href="localLogin.html" id="loginbt">Login</a></li>
+
+          <li data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1200"><a href="localSignup.html" id="logoutbt" onclick="logoutbbt()">Log Out</a></li>
         </ul>
@@ -101,13 +107,16 @@
 
       <h1 id="sec2head">Enjoy Your Vacation </h1>
 
+      <img src="planeimage/aeroanimation.png" id="sec2-img1">
+      <img src="planeimage/aeroanimation.png" id="sec2-img2">
+
       <div id="book-div1">
         <div class="book1"> 
           
           <div class="book1-topic1">
 
                <h1>Flight :  <span>Indigo</span></h1> <br>
-               <h2>Ratings : <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> </h2>
+               <h2>Ratings : <i class="fa-regular fa-star" id="star"></i> <i class="fa-regular fa-star" id="star"></i> <i class="fa-regular fa-star" id="star"></i> <i class="fa-regular fa-star" id="star"></i> </h2>
 
           </div>
           <button class="btt1">Book Now</button></div>
@@ -118,7 +127,7 @@
           <div class="book1-topic2">
 
             <h1>Flight :  <span>Vistara</span></h1> <br>
-            <h2>Ratings : <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i> </h2>
+            <h2>Ratings : <i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star" ></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i> </h2>
 
        </div><button class="btt2">Book Now</button></div>
 
@@ -128,7 +137,7 @@
         <div class="book1-topic3">
 
             <h1>Flight :  <span>SpiceJet</span></h1> <br>
-            <h2>Ratings : <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i> </h2>
+            <h2>Ratings : <i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i> </h2>
 
           </div>
               <button class="btt3">Book Now</button></div>
@@ -142,7 +151,7 @@
           <div class="book1-topic4">
 
             <h1>Flight :  <span>One World</span></h1> <br>
-            <h2>Ratings : <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h2>
+            <h2>Ratings : <i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i></h2>
 
        </div>
              <button class="btt4">Book Now</button>
@@ -154,7 +163,7 @@
           <div class="book1-topic5">
 
             <h1>Flight :  <span>Express</span></h1> <br>
-            <h2>Ratings : <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h2>
+            <h2>Ratings : <i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i></h2>
 
        </div>
            <button class="btt5">Book Now</button>
@@ -165,7 +174,7 @@
           <div class="book1-topic6">
 
             <h1>Flight :  <span>Air India</span></h1> <br>
-            <h2>Ratings : <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h2>
+            <h2>Ratings : <i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star" id="star"></i></h2>
 
        </div>
            <button class="btt6">Book Now</button></div>
@@ -217,7 +226,7 @@
 
       <div class="centerdiv1" data-aos="flip-left"
                               data-aos-easing="ease-out-cubic"
-                              data-aos-delay="200"
+                              data-aos-delay="250"
                               data-aos-offset="300"
                               data-aos-duration="2000">
      </div>
@@ -235,10 +244,10 @@
       <h2 class="centhed2"><i>Pacific Ocean</i></h2>
 
       <div class="centerdiv3" data-aos="flip-left"
-                            data-aos-easing="ease-out-cubic"
-                            data-aos-delay="200"
-                            data-aos-offset="300"
-                            data-aos-duration="2000">                       
+      data-aos-easing="ease-out-cubic"
+      data-aos-delay="200"
+      data-aos-offset="150"
+      data-aos-duration="2000">                       
       </div>
 
       <h2 class="centhed3"><i>Mount Everest</i></h2>
@@ -304,6 +313,23 @@
 
 </section>
 
+<section id="main-sec-5">
+
+  <h1 id="sec5head"><i>Places Locations</i></h1>
+
+  <div class="Layout-container">
+
+    <img src="planeimage/child3.jpeg" width="300px">
+    <img src="planeimage/child2.jpeg" width="300px">
+    <img src="planeimage/express.jpg" width="300px">
+    <img src="planeimage/img1.jpeg" width="300px">
+    <img src="planeimage/img2.jpeg" width="300px">
+    <img src="planeimage/img3.jpeg" width="300px">
+    <img src="planeimage/airindia.jpg" width="300px">
+   
+  </div>
+
+</section>
 
 
     </main>
@@ -329,6 +355,8 @@
   <script>
     AOS.init();
   </script> 
+
+  <script src="swiper.js"></script>
   
     <script src="local.js"></script>
    
