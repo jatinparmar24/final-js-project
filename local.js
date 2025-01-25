@@ -1,4 +1,25 @@
 
+
+// book login
+
+let bookk=()=>{
+   console.log(localStorage.getItem("islogin"));
+   
+   if(localStorage.getItem("islogin")==="true"){
+      location.href="bookingform.html"
+   }
+
+   else{
+      alert("Please Login First")
+   }
+}
+
+// 
+
+
+
+
+
 let checklogin=()=>{
 
    let loginbtn=document.querySelector("#loginbt")
@@ -26,13 +47,13 @@ let logoutbbt=()=>{
 //    dalay:2,
 // })
 
-let menutoggle=document.querySelector("#menu")
-let navlinks=document.querySelector("ul")
+// let menutoggle=document.querySelector("#menu")
+// let navlinks=document.querySelector("ul")
 
-menutoggle.addEventListener('click',()=>{
-   menutoggle.classList.toggle('active');
-   navlinks.classList.toggle('active');
-})
+// menutoggle.addEventListener('click',()=>{
+//    menutoggle.classList.toggle('active');
+//    navlinks.classList.toggle('active');
+// })
 
 
  let login=()=>{
