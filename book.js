@@ -111,6 +111,7 @@ let paginationn=(data)=>{
     let inpage=document.querySelector("#formage").value;
     let inpnum=document.querySelector("#formnum").value;
     let inpplace=document.querySelector("#formplace").value;
+    let inpflight=document.querySelector("#formflight").value;
     let inppeople=document.querySelector("#formpeople").value;
     let inpdate=document.querySelector("#formdate").value;
  
@@ -129,6 +130,7 @@ let paginationn=(data)=>{
                     age:inpage,
                     number:inpnum,
                     place:inpplace,
+                    flight:inpflight,
                     people:inppeople,
                     date:inpdate,
                     price:2000

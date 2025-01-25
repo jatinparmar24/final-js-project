@@ -1298,9 +1298,10 @@ top: 0;
     position: relative;
     /* background-color:  #4A628A; */
     /* background-color: #1f365ee4; */
-    background-color: #01d286;
+    /* background-color: #01d286; */
     /* background-color: #B9E5E8; */
     /* background-color: #DFF2EB; */
+    background: linear-gradient( rgb(5, 215, 187), rgb(20, 105, 155), rgba(5, 215, 187));
   }
 
   #searchbox{
@@ -1357,7 +1358,8 @@ top: 0;
 .tbheads{
     width: 200px;
     height: 45px;
-    color: darkblue;
+    color: white;
+    text-shadow: 2px 2px 2px black;
     font-size: 20px;
     padding-left: 10px;
 }
@@ -1365,7 +1367,8 @@ top: 0;
 
 
   #display{
-    color: red;
+    color: white;
+    text-shadow: 2px 2px 2px black;
   }
 
   #editform{
