@@ -28,6 +28,8 @@ let fetchData=async()=>{
  }
 
 
+//  pagination.js 
+
 let paginationn=(data)=>{
 
   $('#pagin').pagination({
@@ -79,6 +81,8 @@ let paginationn=(data)=>{
  
     fetch(urls,{method:"DELETE"})
  }
+
+//  confirm delete with sweet alert
 
  let condel=(id)=>{
     Swal.fire({
@@ -157,16 +161,16 @@ let formfill = async(id)=>{
 
     let formdata=`
     
-      <h2>Enter Name</h2>
+      <h2 id="editname">Enter Name</h2>
     <input type="text" id="formnam" value="${data.name}"> <br>
 
-    <h2>Enter Your Age</h2>
+    <h2 id="editage">Enter Your Age</h2>
     <input type="number" id="formag" value="${data.age}"> <br>
 
-    <h2>Enter Number</h2>
+    <h2 id="editnum">Enter Number</h2>
     <input type="number" id="formnom" value="${data.number}"> <br>
 
-    <h2>Enter Place</h2>
+    <h2 id="editplace">Enter Place</h2>
     <select id="formplac">
              <option value="Mumbai">Mumbai</option>
              <option value="Delhi">Delhi</option>
@@ -177,13 +181,13 @@ let formfill = async(id)=>{
 
     </select> <br>
 
-    <h2>Enter Number of People</h2>
+    <h2 id="editpeople">Passenger</h2>
     <input type="number" id="formpeopl" value="${data.people}"> <br>
 
-    <h2>Date</h2>
+    <h2 id="editdate">Date</h2>
     <input type="date" id="formdat" value="${data.date}"> <br> <br>
 
-    <input type="submit" onclick="return finalupdate('${data.id}')">
+    <input type="submit" onclick="return finalupdate('${data.id}')" id="editsubmit">
     
     `
 
