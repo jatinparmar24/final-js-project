@@ -2,10 +2,9 @@
   "flights": [
     {
       "name": "himansh",
-      "age": "32",
+      "age": "31",
       "number": "5566232365",
-      "place": "Delhi",
-      "flight": "Vistara",
+      "place": "Mumbai",
       "people": "4",
       "date": "2025-01-24",
       "price": 1500,
@@ -39,16 +38,6 @@
       "place": "Tamil Nadu",
       "people": "6",
       "date": "2025-01-31",
-      "price": 2000
-    },
-    {
-      "id": "1238",
-      "name": "",
-      "age": "",
-      "number": "",
-      "place": "Mumbai",
-      "people": "6",
-      "date": "",
       "price": 2000
     },
     {

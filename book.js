@@ -164,7 +164,7 @@ let formfill = async(id)=>{
       <h2 id="editname">Enter Name</h2>
     <input type="text" id="formnam" value="${data.name}"> <br>
 
-    <h2 id="editage">Enter Your Age</h2>
+    <h2 id="editage">Enter Age</h2>
     <input type="number" id="formag" value="${data.age}"> <br>
 
     <h2 id="editnum">Enter Number</h2>
