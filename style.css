@@ -130,28 +130,26 @@ height: 100vh;
 #sub-body{
     width: 100%;
     height: 100vh;
-    background-color: black;
-    /* background-image: url(planeimage/nature.jpg);
+    /* background-color: black; */
+    background-image: url(planeimage/nature.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-size: cover; */
+    background-size: cover;
+   
+
 }
 
 
 #formbox{
-    width: 500px;
-    height: 700px;
-    border: 1px solid black;
+    width: 1500px;
+    height: 800px;
     position: relative;
-    left: 35%;
-    top: 10%;
+   top: 15px;
+   left: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 30px;
     z-index: 1;
-    /* background-color: rgba(75, 247, 247, 0.911); */
-    /* background-color: transparent; */
     border-radius: 10px;
 }
 
@@ -167,7 +165,7 @@ height: 100vh;
     height: 100%;
     width: 100%;  
     /* background-color: red; */
-   background-image: conic-gradient(from var(--angle), transparent 75%, orange, purple,darkblue,red,yellow,lightyellow);
+   background-image: conic-gradient(from var(--angle), transparent 85%, violet,indigo,blue,green,yellow,orange,red);
     top: 50%;
     left: 50%;
     translate: -50% -50%;
@@ -391,12 +389,33 @@ top: 0;
 
 #main-sec-1{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     background-color: #DFF2EB;
 }
 
+#sec1-div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
+#sec1-div1 div{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
+.sec1-1 i{
+  color: red;
+  font-size: 35px;
+  margin-left: 80px;
+}
+/* .sec1-1 h2{
+
+} */
 
 
  .swiper-slide{
@@ -405,6 +424,21 @@ top: 0;
     position: relative;
  }
 
+ #sec1-div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+#sec1-div2 div{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
  /* section one ends here 
 
