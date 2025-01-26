@@ -12,38 +12,6 @@ width: 100%;
 height: 100vh;
 } 
 
-#logimage{
-    width: 150px;
-    height: 150px;
-    /* background-image: url(planeimage/logimg.png);
-    background-size: cover; */
-    /* position: relative; */
-    /* top: 2%;
-    left: 2%; */
-    font-size: 30px;
-    color: red;
-    animation: log-anime 10s linear infinite;
-}
-
-@keyframes log-anime{
-    0%{
-        left:430px; top:110px
-    }
-
-    25%{
-        left:995px; top:110px
-    }
-    50%{
-    left:995px; top: 660px;
-    }
-    75%{
-         left: 425px; top: 660px;    
-    }
-    100%{
-        left: 430px; top: 110px;
-    }
-}
-
 #logcenter{
     width: 500px;
     height: 500px;
@@ -65,9 +33,11 @@ height: 100vh;
 
 #logcenter a{
     text-decoration: none;
-    color: darkblue;
+    color: white;
 }
-
+#logcenter h2{
+    color: #DFF2EB;
+}
 #loginname {
     width: 230px;
     height: 40px;
@@ -103,7 +73,7 @@ height: 100vh;
 
 #loghead{
     font-size: 40px;
-    color: darkblue;
+    color: white;
 }
 
 #logbtt{
@@ -406,12 +376,23 @@ top: 0;
     border: 1px solid black;
     margin-top: 2%;
     margin-bottom: 2%;
+    background: linear-gradient(yellow,blue,darkblue);
 }
 
-.sec1-1 i{
+#sec1-div1 i{
   color: red;
   font-size: 35px;
   margin-left: 80px;
+  margin-top: 6%;
+}
+
+#sec1-div1 h2{
+ color: white;
+ margin-top: 15%;
+ font-size: 20px;
+ margin-left: 50px;
+ letter-spacing: 1px;
+
 }
 /* .sec1-1 h2{
 
@@ -1200,20 +1181,8 @@ top: 0;
 #formbookbody{
     width: 100%;
     height: 100vh;
+    position: relative;
 }
-
-#bookform{
-  width: 600px;
-  height: 750px;  
-  /* border: 1px solid black; */
-  background-color: rgba(170, 216, 247, 0.37);
-  position: relative;
-  top: 65px;
-  left: 33%;
-  line-height: 30px;
-  padding-top: 40px;
-}
-
 
 #formbookhead{
     font-size: 50px;
@@ -1223,49 +1192,66 @@ top: 0;
     top: 8px;
 }
 
-#bookform input{
+/* #bookform input{
     width: 160px;
     height: 35px;
     font-size: 20px;
-}
-
-#formplace{
-    width: 160px;
-    height: 35px; 
-    font-size: 20px;
- 
-}
-
-#bookhead{
-    font-size: 30px;
-    color: darkblue;
-    margin-bottom: 10px;
-}
-/* 
-#bookformsub{
-    
-    color: crimson;
-    background-color: rgba(170, 216, 247, 0.37);
- } */
- #bookformsub{
-    width: 250px;
-    height: 50px;
+} */
+#bookhead1{
     position: absolute;
-    border: 1px solid black;
-    left: 220px;
-    bottom: 50px;
-    font-size: 45px;
-    color: crimson;
-    background: linear-gradient(to right,cyan,cyan);
-    border-radius: 30px;
- }
+    top: 30%;
+    left: 20%;
+    font-size: 35px;
+}
+#formname{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width: 180px;
+    height: 35px;
+}
 
- #bookformsub:hover{
-    transform: scale(1.1);
-    overflow: hidden;
-    border: 1px solid black;
+#bookhead2{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 30px;
+}
+#formage{
+    position: absolute;
+    top: 45%;
+    left: 41%;
+    width: 180px;
+    height: 35px;
+}
 
- }
+#bookhead3{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    font-size: 30px;
+}
+#formnum{
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    width: 180px;
+    height: 35px;
+}
+
+#bookhead4{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
 
 
 
