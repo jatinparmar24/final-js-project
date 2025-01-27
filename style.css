@@ -121,7 +121,7 @@ height: 100vh;
     border-radius: 10px;
 }
 
-@property  --angle{
+/* @property  --angle{
     syntax: "<angle>";
     initial-value: 0deg;
     inherits: false;
@@ -132,7 +132,6 @@ height: 100vh;
     position: absolute;
     height: 100%;
     width: 100%;  
-    /* background-color: red; */
    background-image: conic-gradient(from var(--angle), transparent 75%, violet,indigo,blue,green,yellow,orange,red);
     top: 50%;
     left: 50%;
@@ -157,7 +156,7 @@ height: 100vh;
     content: '';
     filter: blur(3.5rem);
     opacity: 0.5;
-}
+} */
 
  #inpname {
     width: 230px;
@@ -1646,34 +1645,56 @@ top: 0;
 
 
 @media (min-width: 350px) and (max-width: 750px){
-    #logimage{
-        display: none;
-    }
-
-    #logcenter{
-        width: 300px;
-        height: 500px;
-        font-size: 15px;
-        position: absolute;
-        left: 80px;
-    }
-    #logcenter h1{
-        font-size: 30px;
-    }
-
+   
     /* sign up page */
 
-#animation-sign{
-    display: none;
-}
+    #sub-body{
+        width: 300px;
+        height: 100vh;
+        position: relative;
+    }
 
-#sign-1div{
-    font-size: 15px;
-    line-height: 15px;
-}
+    #formbox{
+    width: 400px;
+    height: 780px;
+   }
+
+   #signlast{
+   color: darkblue;
+   }
+
+   #singlast-anker{
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+   }
 
 /* sign up page ends here */
 
+
+/* login starts here */
+#login-body{
+    width: 430px;
+    height: 99vh;
+}
+#logbody{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#logcenter{
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    width: 350px;
+    height: 450px;
+}
+
+#logcenter a{
+    color: crimson;
+}
+/* login ends here */
 /* home page */
 
 /* header */
@@ -1747,6 +1768,7 @@ top: 0;
 }
 
 .Layout-container{
+    width: 400px;
     position: absolute;
     left: 3%;
     top: 32%;
@@ -1814,134 +1836,79 @@ top: 0;
 
 #main-sec-2{
     width: 100%;
-    height: 205vh;
-}
-
-#sec2head{
-   margin-left: 15%;
-}
-
-#book-div1 div{
-    width: 250px;
-    height: 250px;
-    margin-left: 17px;
-    margin: 2%;
+    height: 135vh;
     position: relative;
 }
 
-#book-div2 div{
-    width: 250px;
-    height: 250px;
-    margin-left: 17px;
-    margin: 2%;
-    position: relative;
+#sec4-head{
+    font-size: 40px;
+    margin-left: 30%;
+    padding-top: 2%;
 }
 
-
-#book-div1 .btt1{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
+#maincenterdiv{
     position: absolute;
-    left: 80px;
-    bottom: 15px;
-    border-radius: 20px;
 }
 
-#book-div1 .btt2{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
+
+.child1{
+    margin-top: 10%;
+}
+
+
+.child2{
+    margin-top: 10%;
+}
+
+
+.child3{
+    margin-top: 10%;
+}
+
+
+.child4{
     position: absolute;
-    left: 80px;
-    bottom: 15px;
-    border-radius: 20px;
+    top: 550px;
+    left: 17px;
 }
 
-#book-div1 .btt3{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
+
+.child5{
     position: absolute;
-    left: 80px;
-    bottom: 15px;
-    border-radius: 20px;
+    top: 550px;
+    left: 150px;
 }
 
-#book-div2 .btt4{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
+
+.child6{
     position: absolute;
-    left: 80px;
-    bottom: 15px;
-    border-radius: 20px;
+    top: 550px;
+    left: 280px;
 }
 
-#book-div2 .btt5{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
+
+.child7{
+    display: none;
+}
+
+
+.child8{
+    display: none;
+}
+
+
+
+#maincenterdiv2{
     position: absolute;
-    left: 80px;
-    bottom: 15px;
-    border-radius: 20px;
+    top: 700px;
+    left: 30px;
+    height: 350px;
+    width: 350px;
 }
 
-#book-div2 .btt6{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-    position: absolute;
-    left: 80px;
-    bottom: 15px;
-    border-radius: 20px;
-}
-/* section 2 ends here */
-
-/* section 3 starts here */
-
-#main-sec-3{
-    width: 100%;
-    height: 110vh;
-}
-.centhed{
-    margin-top: 3%;
-    margin-left: 12%;
-}
-
-#centerdiv div{
-    position: relative;
-    width: 250px;
-    height: 250px;
-    margin: 10px;
-}
-
-#centerdiv .centhed1{
-    position: absolute;
-    top: 200px;
-}
-
-#centerdiv .centhed2{
-    position: absolute;
-    top: 470px;
-}
-
-
-#centerdiv .centhed3{
-    position: absolute;
-    top: 710px;
-    left: 100px;
-}
-
-/* section 3 ends here */
-
-/* section 4 starts from here */
-
-#main-sec-4{
-    width: 100%;
-    height: 150vh;
-    position: relative;
+.swiper-slide img{
+    height: 350px;
+    width: 350px;
 }
 
 #maincenterdiv{
@@ -1977,10 +1944,377 @@ top: 0;
 
 
 
+/* section 2 ends here */
+
+/* section 3 starts here */
+
+#main-sec-3{
+    width: 100%;
+    height: 160vh;
+}
+
+.centhed{
+font-size: 35px;
+margin-left: 12%;
+}
+
+#centerdiv div{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#centerdiv .centerdiv1{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+#centerdiv .centhed1 {
+  position: absolute;
+  display: inline-flex;
+  top: 50px;
+  left: 250px;
+  color: crimson;
+  border-bottom: none;
+}
+
+.div1-part{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    margin-top: 40%;
+}
+
+.div1-part div{
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+
+.centerdiv2{
+    margin-top: 50%;
+    position: absolute;
+    left: 30px;
+}
+
+
+#centerdiv .centhed2 {
+    position: absolute;
+    display: inline-flex;
+    top: 460px;
+    left: 250px;
+    color: crimson;
+    border-bottom: none;
+  }
+
+
+
+.div2-part{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    margin-top: 80%;
+}
+
+.div2-part div{
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+
+#centerdiv .centerdiv3{
+    position: absolute;
+    display: inline-flex;
+    margin-top: 350px;
+    left: 25px;
+}
+
+#centerdiv .centhed3 {
+    position: absolute;
+    display: inline-flex;
+    top: 865px;
+    left: 250px;
+    color: crimson;
+    border-bottom: none;
+  }
+
+.div3-part{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    margin-top: 110%;
+}
+
+.div3-part div{
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
 
 
 
 
+
+/* section 3 ends here */
+
+/* section 4 starts from here */
+
+#main-sec-4{
+    width: 100%;
+    height: 295vh;
+}
+
+#sec2head{
+    padding-top: 5%;
+    font-size: 35px;
+    margin-left: 17%;
+}
+
+#book-div1{
+    position: relative;
+}
+
+.book1{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.book2{
+    position: absolute;
+    left: 30px;
+    top: 410px;
+}
+
+
+.book3{
+    position: absolute;
+    left: 30px;
+    top: 800px;
+}
+
+
+#book-div2{
+    position: relative;
+}
+
+
+.book4{
+    position: absolute;
+    left: 30px;
+    top: 1180px;
+}
+
+
+.book5{
+    position: absolute;
+    left: 30px;
+    top: 1570px;
+}
+
+.book6{
+    position: absolute;
+    left: 30px;
+    top: 1970px;
+}
+
+
+
+/* section 4 ends here */
+
+/* footer starts here */
+
+#footerr{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+
+.foot1{
+    margin-left: 2%;
+    font-size: 15px;
+    /* line-height: 20px; */
+}
+
+
+.foot2{
+    margin-left: 3%;
+    /* margin-top: 0%; */
+    font-size: 15px;
+}
+
+.foot3{
+    margin-left: 3%;
+    /* margin-top: 0%; */
+    font-size: 15px;
+}
+
+
+.foot4{
+    margin-left: 0%;
+    margin-right: 2%;
+    /* margin-top: 0%; */
+    font-size: 15px;
+}
+
+
+
+.foot5{
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+/* footer ends here */
+
+
+/* booking form data */
+
+#bookf-body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#formbookhead{
+    position: absolute;
+    left: 55px;
+    font-size: 45px;
+}
+
+#bookhead1{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+}
+
+#formname{
+    position: absolute;
+    top: 170px;
+    left: 260px;
+    width: 150px;
+}
+
+#bookhead2{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+
+#formage{
+    position: absolute;
+    top: 250px;
+    left: 260px;
+    width: 150px;
+}
+
+#bookhead3{
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+
+#formnum{
+    position: absolute;
+    top: 320px;
+    left: 260px;
+    width: 150px;
+}
+
+#bookhead4{
+    position: absolute;
+    top: 390px;
+    left: 50px;
+}
+
+#formplace{
+    position: absolute;
+    top: 390px;
+    left: 260px;
+    width: 150px;
+}
+
+#bookflight5{
+    position: absolute;
+    top: 460px;
+    left: 50px;
+}
+
+#formflight{
+    position: absolute;
+    top: 460px;
+    left: 260px;
+    width: 150px;
+}
+
+#bookhead6{
+    position: absolute;
+    top: 530px;
+    left: 50px;
+}
+
+#formpeople{
+    position: absolute;
+    top: 530px;
+    left: 260px;
+    width: 150px;
+}
+
+#bookhead7{
+    position: absolute;
+    top: 600px;
+    left: 50px; 
+}
+
+#formdate{
+    position: absolute;
+    top: 600px;
+    left: 260px;
+    width: 150px;
+}
+
+#bookformsub{
+    position: absolute;
+    top: 690px;
+    left: 120px; 
+}
+
+
+
+
+/* booking form data ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 4 ends here */
 
 
 
