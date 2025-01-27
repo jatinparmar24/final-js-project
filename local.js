@@ -1,4 +1,14 @@
+// timee
 
+setInterval(() => {
+   let show=document.querySelector("#displays")
+   let time= new Date()
+
+   let currenttime=`${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
+    show.innerHTML=currenttime
+  },1000)
+
+// timee ends here
 
 // book login
 
