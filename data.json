@@ -1,66 +1,6 @@
 {
   "flights": [
     {
-      "name": "himansh",
-      "age": "31",
-      "number": "5566232365",
-      "place": "Mumbai",
-      "people": "4",
-      "date": "2025-01-24",
-      "price": 1500,
-      "id": "906f"
-    },
-    {
-      "id": "c31c",
-      "name": "raj",
-      "age": "36",
-      "number": "3652145897",
-      "place": "West Bengal",
-      "people": "8",
-      "date": "2025-01-29",
-      "price": 2000
-    },
-    {
-      "id": "43e6",
-      "name": "jatin",
-      "age": "25",
-      "number": "3698547125",
-      "place": "Mumbai",
-      "people": "6",
-      "date": "2025-01-28",
-      "price": 2000
-    },
-    {
-      "id": "e58a",
-      "name": "jatin",
-      "age": "25",
-      "number": "3698547125",
-      "place": "Tamil Nadu",
-      "people": "6",
-      "date": "2025-01-31",
-      "price": 2000
-    },
-    {
-      "id": "b540",
-      "name": "raj",
-      "age": "34",
-      "number": "365478965",
-      "place": "Delhi",
-      "people": "2",
-      "date": "2025-01-31",
-      "price": 2000
-    },
-    {
-      "id": "757b",
-      "name": "rajin",
-      "age": "34",
-      "number": "365478965",
-      "place": "Tamil Nadu",
-      "people": "6",
-      "date": "2025-01-31",
-      "price": 2000
-    },
-    {
       "id": "26da",
       "name": "rajinfre",
       "age": "34",

@@ -39,21 +39,14 @@ let logoutbbt=()=>{
    localStorage.removeItem("islogin")
 }
 
-// gsap
 
-// gsap.to("#logimage",{
-//    x:1350,
-//    duration:5,
-//    dalay:2,
-// })
+let menutoggle=document.querySelector("#menu")
+let navlinks=document.querySelector("ul")
 
-// let menutoggle=document.querySelector("#menu")
-// let navlinks=document.querySelector("ul")
-
-// menutoggle.addEventListener('click',()=>{
-//    menutoggle.classList.toggle('active');
-//    navlinks.classList.toggle('active');
-// })
+menutoggle.addEventListener('click',()=>{
+   menutoggle.classList.toggle('active');
+   navlinks.classList.toggle('active');
+})
 
 
  let login=()=>{

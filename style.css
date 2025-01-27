@@ -133,7 +133,7 @@ height: 100vh;
     height: 100%;
     width: 100%;  
     /* background-color: red; */
-   background-image: conic-gradient(from var(--angle), transparent 85%, violet,indigo,blue,green,yellow,orange,red);
+   background-image: conic-gradient(from var(--angle), transparent 75%, violet,indigo,blue,green,yellow,orange,red);
     top: 50%;
     left: 50%;
     translate: -50% -50%;
@@ -388,18 +388,19 @@ top: 0;
     height: 110vh;
     border: 1px solid #1f365ee4;
     background-color: #1f365ee4;
+    display: flex;
 }
 
-/* .container{
+.container{
     position: relative;
     top: 150px;
-    left: 10px;
+    left: 20%;
     width: 200px;
     height: 300px;
     cursor: pointer;
 }
 .card{
-    width: 100%;
+    width: 250px;
     height: 100%;
     position: absolute;
     background-image: url(planeimage/nature.jpg);
@@ -434,7 +435,7 @@ top: 0;
     to{
         background-image: url(planeimage/swan\ png.png);
     }
-} */
+} 
 
 
 
@@ -451,9 +452,11 @@ top: 0;
 }
 .Layout-container{
     width: min(1000px, 100%);
-    margin: 10px auto;
+    margin: 50px auto;
     columns: 4 250px;
     position: relative;
+    right: 55%;
+    
  
 }
 
@@ -463,6 +466,12 @@ top: 0;
     margin: 5%;
     margin-left: 5%;
     margin-right: 5%;
+    transition: 1s;
+
+}
+
+.Layout-container img:hover{
+    transform: perspective(70px) rotateX(5deg) translateY(-20px);
 }
 
 #sec5img1{
@@ -481,6 +490,7 @@ top: 0;
     left: 450px;
     text-shadow: 3px 3px 5px black;
     font-size: 35px;
+    z-index: 8;
 }
 
 #sec5img3{
@@ -490,6 +500,7 @@ top: 0;
     right: 90px;
     text-shadow: 3px 3px 5px black;
     font-size: 35px;
+    z-index: 8;
 }
 
 #sec5img4{
@@ -826,7 +837,8 @@ top: 0;
     height: 105vh;
     position: relative;
     border: 1px solid black;
-    background-color: #B9E5E8;
+    /* background-color: #B9E5E8; */
+    background-color: white;
  }
 
  #sec2head{
@@ -1330,14 +1342,14 @@ top: 0;
     font-size: 25px;
     border-radius: 30px;
     color: white;
-    background-color: black;
+    background-color: darkblue;
     transition: transform 0.5s ease;
 
 }
 
 #bookformsub:hover{
     color: black;
-    background-color: white;
+    background-color: crimson;
     border-radius: 30px;
     transform: scale(1.1);
 }
@@ -1349,7 +1361,7 @@ top: 0;
     width: 100%;
     height: 100vh;
     position: relative;
-    background: linear-gradient( rgb(5, 215, 187), rgb(20, 105, 155), rgba(5, 215, 187));
+    background: linear-gradient( rgb(5, 215, 187), rgb(20, 105, 155));
   }
 
   #searchbox{
@@ -1360,8 +1372,14 @@ top: 0;
     font-size: 30px;
     /* color: black; */
     /* border-bottom: 5px double black; */
-    color: crimson;
-    border-bottom: 5px double crimson;
+    /* color: crimson;
+    border-bottom: 5px double crimson; */
+    background-image: url(planeimage/img2.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 
   }
 
@@ -1383,13 +1401,14 @@ top: 0;
     font-size: 70px;
     /* color: darkblue; */
     /* color: crimson; */
-    color: black;
-    text-shadow: 5px 5px 10px grey;
+    /* color: black; */
+    /* text-shadow: 5px 5px 10px grey; */
     /* border-bottom: 5px double black; */
-    border-bottom: 5px double crimson;
+    /* border-bottom: 5px double crimson; */
     background-image: url(planeimage/img2.jpeg);
+    /* background-image: url(planeimage/aeroplane\ top.webp); */
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -1399,13 +1418,13 @@ top: 0;
     width: 1200px;
     position: absolute;
     top: 390px;
-    left: 10%;
-    box-shadow: -10px 10px 20px grey;
+    left: 8%;
+    box-shadow: 5px 5px 15px black;
   }
 
   #booktablehead{
-    /* color: black; */
-    color: crimson;
+    color: black;
+    /* color: crimson; */
   }
 
 .tbhead{
@@ -1440,7 +1459,13 @@ top: 0;
     right: 200px;
     font-size: 40px;
     /* border-bottom: 5px double black; */
-    border-bottom: 5px double crimson;
+    /* border-bottom: 5px double crimson; */
+    background-image: url(planeimage/img2.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 
 
   }
@@ -1637,28 +1662,29 @@ top: 0;
     font-size: 15px; 
 }
 
-#main-head nav ul{
-    display: none;
-}
 
 #menu{
     display: block;
 }
-ul{
+#main-head nav ul{
     display: none;
+    position: absolute;
     flex-direction: column;
     background-color: aquamarine;
-    /* position: fixed; */
     top: 90px;
-    right: 20px;
+    left: 20px;
     width: 90%;
     border-radius: 10px;
     padding: 10px;
+    z-index: 999;
 }
 
-ul.active{
+#main-head nav ul.active{
+    position: absolute;
+    top: 10%;
     display: flex;
     background-color: black;
+    z-index: 999;
 }
 /* section 1 */
 #main-sec-1{
