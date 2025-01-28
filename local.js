@@ -50,6 +50,7 @@ let logoutbbt=()=>{
 }
 
 
+
 let menutoggle=document.querySelector("#menu")
 let navlinks=document.querySelector("ul")
 
@@ -68,7 +69,7 @@ menutoggle.addEventListener('click',()=>{
    let localpass=localStorage.getItem("Password")
 
    if(loginname==localname && loginpass==localpass){
-    location.href='localHome.html'
+    location.href='index.html'
    }
    else{
     alert("Invalid Name and Password")

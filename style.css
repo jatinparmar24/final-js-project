@@ -1644,6 +1644,31 @@ top: 0;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 350px) and (max-width: 750px){
    
     /* sign up page */
@@ -2297,6 +2322,73 @@ margin-left: 12%;
 /* booking form data ends here */
 
 
+/* booking editing starts here */
+
+#bookdatabody{
+    width: 100%;
+    height: 200vh;
+    position: relative;
+}
+
+#bookfromheads{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-size: 50px;
+}
+
+#searchbox{
+    position: absolute;
+    display: inline;
+    top: 130px;
+    left: 20px;
+    font-size: 20px;
+}
+
+#searchinp{
+    position: absolute;
+    top: 0px;
+    left: 180px;
+}
+
+#searchbox input{
+    width: 150px;
+    height: 35px;
+}
+
+
+
+#editform{
+ position: absolute;
+ top: 220px;
+}
+
+#editname{
+    position: absolute;
+    top: 300px;
+    right: 70%;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#booktable{
+    position: absolute;
+    top: 700px;
+}
 
 
 
@@ -2314,7 +2406,36 @@ margin-left: 12%;
 
 
 
-/* section 4 ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+/* booking editing ends here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
