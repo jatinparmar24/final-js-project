@@ -1,26 +1,14 @@
 {
   "flights": [
     {
-      "id": "26da",
-      "name": "rajinfre",
-      "age": "34",
-      "number": "365478965",
-      "place": "Kashmir",
-      "flight": "Spice Jet",
-      "people": "6",
-      "date": "2025-01-31",
-      "price": 2000
-    },
-    {
-      "id": "9d9b",
-      "name": "jatin",
+      "name": "raah",
       "age": "24",
       "number": "654789654",
-      "place": "Kashmir",
-      "flight": "Vistara",
+      "place": "Mumbai",
       "people": "7",
       "date": "2025-01-29",
-      "price": 2000
+      "price": 1500,
+      "id": "9d9b"
     },
     {
       "id": "2ad8",

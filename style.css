@@ -122,7 +122,7 @@ height: 100vh;
     border-radius: 10px;
 }
 
-/* @property  --angle{
+ @property  --angle{
     syntax: "<angle>";
     initial-value: 0deg;
     inherits: false;
@@ -133,7 +133,7 @@ height: 100vh;
     position: absolute;
     height: 100%;
     width: 100%;  
-   background-image: conic-gradient(from var(--angle), transparent 75%, violet,indigo,blue,green,yellow,orange,red);
+   background-image: conic-gradient(from var(--angle), transparent 80%, rgba(192, 192, 243, 0.414),rgba(127, 127, 154, 0.227),rgba(71, 71, 111, 0.167),rgba(137, 137, 248, 0.079));
     top: 50%;
     left: 50%;
     translate: -50% -50%;
@@ -157,10 +157,10 @@ height: 100vh;
     content: '';
     filter: blur(3.5rem);
     opacity: 0.5;
-} */
+} 
 
  #inpname {
-    width: 230px;
+    width: 260px;
     height: 40px;
     font-size: 17px;
     padding-left: 10px;
@@ -175,7 +175,7 @@ height: 100vh;
 }
 
 #inpnum {
-    width: 230px;
+    width: 260px;
     height: 40px;
     font-size: 17px;
     padding-left: 10px;
@@ -190,7 +190,7 @@ height: 100vh;
 }
 
 #inpemail {
-    width: 230px;
+    width: 260px;
     height: 40px;
     font-size: 17px;
     padding-left: 10px;
@@ -205,7 +205,7 @@ height: 100vh;
 }
 
 #inppass {
-    width: 230px;
+    width: 260px;
     height: 40px;
     font-size: 17px;
     padding-left: 10px;
@@ -220,7 +220,7 @@ height: 100vh;
 }
 
 #inpcpass {
-    width: 230px;
+    width: 260px;
     height: 40px;
     font-size: 17px;
     padding-left: 10px;
@@ -241,7 +241,7 @@ height: 100vh;
     font-size: 35px;
 }
   #subtt{
-    width: 230px;
+    width: 260px;
     height: 35px;
     border-radius: 90px;
     font-size: 25px;
@@ -1839,17 +1839,12 @@ top: 0;
     padding-top: 0%;
     padding-left: 0%;
     background-color: #1f365ee4;
-    z-index: 1;
     line-height: 1px;
     margin: 0;
-    border: none !important;
+    border-bottom: none;
 }
 
 
-
-/* #main-head nav ul:hover.active{
-    border-bottom: none;
-} */
 
 /* header ends here */
 

@@ -52,9 +52,9 @@ let logoutbbt=()=>{
 
 
 let menutoggle=document.querySelector("#menu")
-let navlinks=document.querySelector("ul")
+ let navlinks=document.querySelector("ul")
 
-menutoggle.addEventListener('click',()=>{
+ menutoggle.addEventListener('click',()=>{
    menutoggle.classList.toggle('active');
    navlinks.classList.toggle('active');
 })
