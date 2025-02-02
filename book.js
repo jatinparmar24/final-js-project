@@ -61,6 +61,7 @@ let paginationn=(data)=>{
         <td class="tbhead">${e.price}</td>
          <td class="tbhead">${e.date}</td>
          <td class="tbhead">${e.price*e.people}</td>
+         
          <td onclick="condel('${e.id}')" class="tbheads">Cancel</td>
          <td onclick="formfill('${e.id}')" class="tbheads">Edit</td>
               
